@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eshan Iyer — Portfolio</title>
+    <meta name="description" content="Portfolio website of Eshan Iyer — resume, projects, and contact." />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Favicon + Icons -->
+    <link rel="icon" href="assets/favicon.ico" sizes="any"> <!-- fallback -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#0d1117">
+    
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">Eshan Iyer</div>
+        <nav class="nav">
+            <a href="index.html#about">About</a>
+            <a href="index.html#projects">Projects</a>
+            <a href="resume.html">Resume</a>
+            <a href="index.html#contact">Contact</a>
+            <a href="explorer.html">Assets</a>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi, I’m <span class="accent">Eshan Iyer</span></h1>
+            <p>A freshman in college who loves to program. I enjoy building projects and sharing what I learn.</p>
+            <div class="cta">
+                <a href="https://github.com/Nazchanel" target="_blank" class="btn">💻 GitHub</a>
+                <a href="https://linkedin.com/in/eshaniyer" target="_blank" class="btn secondary">🔗 LinkedIn</a>
+                <a href="assets/resume-full.pdf" class="btn" target="_blank">📄 Resume</a>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="assets/banner.png" alt="Banner">
+        </div>
+    </section>
+    
+    <section id="about" class="section">
+        <h2>About</h2>
+        <p>
+            I’m currently a freshman exploring computer science, building small projects, and contributing to open source.  
+            You can find my work on <a href="https://github.com/Nazchanel" target="_blank">GitHub</a> and my experience on  
+            <a href="https://linkedin.com/in/eshaniyer" target="_blank">LinkedIn</a>.
+        </p>
+    </section>
+    
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div id="projects-grid" class="grid"></div>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email me at <a href="mailto:eshaniyer@gmail.com">eshaniyer@gmail.com</a></p>
+    </section>
+    
+    <footer class="footer">
+        <p>© 2025 Eshan Iyer</p>
+        <div class="social">
+            <a href="https://github.com/Nazchanel" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/eshaniyer" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/eshaniyer06" target="_blank">Twitter</a>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="theme.js"></script>
+</body>
+</html>
